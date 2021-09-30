@@ -32,7 +32,8 @@ class PortWalletProvider extends ServiceProvider
      */
     public function boot()
     {
-        $path = realpath(__DIR__ . '/../../config/portwallet.php');
-        $this->mergeConfigFrom($path, 'jwt');
+        $this->publishes([
+            __DIR__ . '/config/portwallet.php' => config_path('portwallet.php'),
+        ]);
     }
 }

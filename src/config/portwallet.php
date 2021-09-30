@@ -10,7 +10,7 @@
  */
 
 return [
-    'mode' => 'sandbox',
-    'api_key' => '69b9780a1ecd9d80df47837c74f0d22e',
-    'api_secret' => 'b44dd5d866822a413e297513dd15ed94',
+    'mode' => env('PORTWALLET_MODE'),
+    'api_key' => env('PORTWALLET_API_KEY'),
+    'api_secret' => env('PORTWALLET_API_SECRET'),
 ];
