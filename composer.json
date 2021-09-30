@@ -23,6 +23,5 @@
                 "Xenon\\PortWallet\\PortWalletProvider"
             ]
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
