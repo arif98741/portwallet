@@ -1,0 +1,27 @@
+{
+    "name": "xenon/portwallet",
+    "description": "This package is for accepting payment using portwallet payment gateway of Bangladesh",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful islam",
+            "email": "arif98741@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xenon\\Portwallet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xenon\\PortWallet\\PortWalletProvider"
+            ]
+        }
+    }
+}

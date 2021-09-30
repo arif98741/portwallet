@@ -1,0 +1,8 @@
+
+vendor/
+.idea
+.vscode
+*.log
+*.zip
+*.iml
+*.txt
